@@ -6,8 +6,15 @@ This extension replaces the URLs of this redirection service with the original U
 
 ## Installation
 
+### From Firefox
+
+1. Go to the latest release, click the ``.xpi`` file and allow GitHub to install the extension
+
+### From other browsers
+
 1. Download the latest ``.xpi`` from the releases page
-2. Go to ``about:addons`` and drop the ``.xpi`` file
+2. Open Firefox
+3. Go to ``about:addons`` and drop the ``.xpi`` file
 
 ## Development
 

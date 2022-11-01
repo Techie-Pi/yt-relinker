@@ -6,6 +6,9 @@ This extension replaces the URLs of this redirection service with the original U
 
 ## Installation
 
+1. Download the latest ``.xpi`` from the releases page
+2. Go to ``about:addons`` and drop the ``.xpi`` file
+
 ## Development
 
 Install ``web-ext``

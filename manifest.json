@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube ReLinker",
+  "version": "1.0",
+  "description": "Replaces YouTube's custom _link redirecter_ with just the... original URL",
+  "icons": {
+    "48": "icons/relinker-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*", "*://youtube.com/*", "*://yt.be/*"],
+      "js": ["scripts/relinker.js"]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "YouTube ReLinker",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Replaces YouTube's custom _link redirecter_ with just the... original URL",
   "icons": {
     "48": "icons/relinker-48.png"
@@ -11,5 +11,10 @@
       "matches": ["*://*.youtube.com/*", "*://youtube.com/*", "*://yt.be/*"],
       "js": ["scripts/relinker.js"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "update_url": "https://addons.1416.info/updates.json"
+    }
+  }
 }
